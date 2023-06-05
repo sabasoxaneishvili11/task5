@@ -30,22 +30,20 @@ li, .nav1 {
 padding: 8px 16px;
 margin-left: 250px;
 background-color: white;
+font-family: 'Poppins', sans-seri;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #2A9D8F;
+border: none;
 }
-.buttonp{
-    font-family: 'Poppins', sans-seri;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #2A9D8F;
-    
-}
+
 /* section */
 .section_text{
     /* background-color: aqua; */
-    margin: 200px 330px;
-    width: 780px;
-    margin-inline: auto;
+    margin: 200px auto;
+    width: 1180px;
 }
 h1 {
     font-family: 'Poppins', sans-seri;
@@ -118,8 +116,8 @@ line-height: 48px;
 }
 /* article */
 .article1 {
-   margin: 130px 200px;
-   /* width: 1180px; */
+   width: 1180px;
+   margin: 200px auto;
  
 }
 h3 {
@@ -127,42 +125,26 @@ font-size: 48px;
  line-height: 130%;
  color: #4D4D4D;
  font-family: 'Poppins', sans-serif;
-margin-left: 490px;
+margin-bottom: 54px ;
+text-align: center;
 }
-.divimg1 {
-width: 580px;
-margin-top: 54px;
-vertical-align: top;
+.divimg1,.divimg2 {
 display:inline-block;
-margin-right: 20px;
-margin-left: 130px;
-
 }
-.divimg2{
-     width: 580px;
-    margin-top: 54px;
-    vertical-align: top;
-    display:inline-block;
-    margin-right: 20px;}
-
-
-.phototexst {
-    margin-top: 32px;
-    font-size: 24px;
-    line-height: 36px;
-    width: 580px;
-    font-family: 'Poppins', sans-serif;
-    color: #535353; 
+.divimg2 {
+    margin-left: 15px;
+}
    
-}
-.phototexst2  {
-    width:  491px;;
+
+.phototexst, .phototexst2  {
     margin-top: 32px;
     font-size: 24px;
     line-height: 36px;
+  
     font-family: 'Poppins', sans-serif;
-    color: #535353; 
+    color: #535353;
 }
+
 /* footer */
 footer {
     width: 1440px;
